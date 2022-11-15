@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e447aeea-93c8-48a2-a3ce-ebab23918eac" name="Changes" comment="Next Step: Start 2b">
-      <change afterPath="$PROJECT_DIR$/ReadME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
+    <list default="true" id="e447aeea-93c8-48a2-a3ce-ebab23918eac" name="Changes" comment="Next Step: Trying to figure out part 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19/lib/src.zip!/java.base/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19/lib/src.zip!/java.base/java/util/Objects.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +86,7 @@
       <workItem from="1667962452845" duration="2873000" />
       <workItem from="1668003309322" duration="9661000" />
       <workItem from="1668090030429" duration="8097000" />
-      <workItem from="1668379147097" duration="5607000" />
+      <workItem from="1668379147097" duration="25309000" />
     </task>
     <task id="LOCAL-00001" summary="Next Step: Start 2b">
       <created>1667966677615</created>
@@ -92,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667966677615</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Next Step: Trying to figure out part 3">
+      <created>1668391118867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668391118867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Next Step: Start 2b" />
-    <option name="LAST_COMMIT_MESSAGE" value="Next Step: Start 2b" />
+    <MESSAGE value="Next Step: Trying to figure out part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Next Step: Trying to figure out part 3" />
   </component>
 </project>
