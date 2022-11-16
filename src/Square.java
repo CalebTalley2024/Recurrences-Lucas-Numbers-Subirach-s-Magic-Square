@@ -9,7 +9,7 @@ public class Square {
     // magic sum is what each column, row, etc add up to (1 + 14 + 14 + 4)
     int magicSum = 33;
 
-    public static int[] testNums = {1, 2,3,4};
+    public static int[] testNums = {1,2,2};
     public static int[] magicNums = {1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5,13,2,3,15};
 
     /*
@@ -22,7 +22,7 @@ public class Square {
         // sort the number array for readability and to account for duplicates
         Arrays.sort(nums);
         // this function will recursively make all of our subsets
-        backtrack(powerSet, new ArrayList<>(), nums, 0);
+        makeSubsets(powerSet, new ArrayList<>(), nums, 0);
         return powerSet;
     }
 
@@ -30,7 +30,7 @@ public class Square {
      * recursive function that gets the powerset of a set
      * takes in list of subsets, a slot for making subsets, a set to make subsets from, and a starting index
      * */
-    public static void backtrack(ArrayList<ArrayList<Integer>> powerSet, ArrayList<Integer> tempSlot, int[] nums, int start) {
+    public static void makeSubsets(ArrayList<ArrayList<Integer>> powerSet, ArrayList<Integer> tempSlot, int[] nums, int start) {
         // adding subsets to our powerset list
         powerSet.add(new ArrayList<>(tempSlot));
 //        System.out.println(tempSlot);
@@ -38,21 +38,15 @@ public class Square {
         // for head index of a loop, you will get all of the subsets that contain the value at index i
         // the algorithm will not repeat the same subsets (unless there are two of the same value)
         for (int i = start; i < nums.length; i++) {
-            /** make sure that we only have the same elements in a subset when the start is i is at the start position
-             (whether in the first for loop or a recursive for loop)*/
-            if (i > start && nums[i] == nums[i - 1]) {
-                // if we have a duplicate that is not at the start of a function call, skip this subset
-                continue;
-            } else {
                 // adding numbers to our subset creater: tempSlot
                 tempSlot.add(nums[i]);
 //            System.out.println(tempSlot);
                 //recursive call to make all of the subsets that contain the value at index i
-                backtrack(powerSet, tempSlot, nums, i + 1);
+                makeSubsets(powerSet, tempSlot, nums, i + 1);
 //            System.out.println("number to be removed: " + tempSlot.get(tempSlot.size()-1));
                 // When at the end of the recursive call, remove the last value in our temporary subset slot
                 tempSlot.remove(tempSlot.size() - 1);
-            }
+
         }
     }
 

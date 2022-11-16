@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e447aeea-93c8-48a2-a3ce-ebab23918eac" name="Changes" comment="Most of 3 is done, but there are still some problems&#10; bonus questions, and setting everything up for parts 1,2 and 3&#10;- Power set function size is off of what it should be (2^k)">
+    <list default="true" id="e447aeea-93c8-48a2-a3ce-ebab23918eac" name="Changes" comment="&#10; bonus questions,&#10;- Power set function size is off of what it should be (2^k)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadME.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +87,7 @@
       <workItem from="1668003309322" duration="9661000" />
       <workItem from="1668090030429" duration="8097000" />
       <workItem from="1668379147097" duration="25939000" />
-      <workItem from="1668488363825" duration="13678000" />
+      <workItem from="1668488363825" duration="15126000" />
     </task>
     <task id="LOCAL-00001" summary="Next Step: Start 2b">
       <created>1667966677615</created>
@@ -119,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668559873586</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&#10; bonus questions,&#10;- Power set function size is off of what it should be (2^k)">
+      <created>1668568784872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668568784872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +146,7 @@
     <MESSAGE value="Next Step: Trying to figure out part 3" />
     <MESSAGE value="Most of 3 is done, but there are still some problems&#10;- still have to do 3e, bonus questions, and setting everything up for parts 1 and 2&#10;- Power set function size is off of what it should be (2^k)&#10;- Hash maps functions for 3 are out of bounds and/or not working" />
     <MESSAGE value="Most of 3 is done, but there are still some problems&#10; bonus questions, and setting everything up for parts 1,2 and 3&#10;- Power set function size is off of what it should be (2^k)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Most of 3 is done, but there are still some problems&#10; bonus questions, and setting everything up for parts 1,2 and 3&#10;- Power set function size is off of what it should be (2^k)" />
+    <MESSAGE value="&#10; bonus questions,&#10;- Power set function size is off of what it should be (2^k)" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10; bonus questions,&#10;- Power set function size is off of what it should be (2^k)" />
   </component>
 </project>

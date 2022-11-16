@@ -21,7 +21,7 @@
 ## Part 3
 - Sum for each row/column/etc: 33
 ### 3c
-- The greatest number of combinations is 66, which is  two times the magic sum (33)
-- There are 708 different combinations that sum up to 66
-
+- The greatest number of combinations is 66, which is two times the magic sum (33)
+- There are 1364 different combinations that sum up to 66
+##
 

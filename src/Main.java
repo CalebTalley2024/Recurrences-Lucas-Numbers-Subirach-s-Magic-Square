@@ -6,46 +6,46 @@ import java.util.stream.IntStream;
 public class Main {
 
     public static void main(String[] args) {
-        // Part 1
-        System.out.println("Part 1:");
-        Sequence.LucinacciSequence(40);
+//        // Part 1
+//        System.out.println("Part 1:");
+//        Sequence.LucinacciSequence(40);
 
+////
+////         Part 2a
+//        System.out.println("Part 2: ");
+//        // showing the sequence when 40<n<45
+//        for (int n = 40;n<=43;n++){
+//            Sequence.LucinacciTime(n);
+//            System.out.println("The Runtime for Lucas' Fibonacci numbers where n = "+ n + " :  " + Sequence.LucinacciTime(n) + "  milliseconds");
+//        }
+//        System.out.println();
 //
-//         Part 2a
-        System.out.println("Part 2: ");
-        // showing the sequence when 40<n<45
-        for (int n = 40;n<=43;n++){
-            Sequence.LucinacciTime(n);
-            System.out.println("The Runtime for Lucas' Fibonacci numbers where n = "+ n + " :  " + Sequence.LucinacciTime(n) + "  milliseconds");
-        }
-        System.out.println();
+////        Part 2bi
+//        // showing the sequence when 40<n<43
+//        System.out.println("Ratios for Lucas' fibonacci");
+//        for (int n = 40;n<=43;n++){
+//            Sequence.LucinacciRatioCalc(n);
+//        }
+//        System.out.println();
+//        // Part 2bii
+//
+//        for (int n = 40;n<=43;n++){
+//            Sequence.LucinacciRatioTime(n);
+//        }
+//        System.out.println();
 
-//        Part 2bi
-        // showing the sequence when 40<n<43
-        System.out.println("Ratios for Lucas' fibonacci");
-        for (int n = 40;n<=43;n++){
-            Sequence.LucinacciRatioCalc(n);
-        }
-        System.out.println();
-        // Part 2bii
-
-        for (int n = 40;n<=43;n++){
-            Sequence.LucinacciRatioTime(n);
-        }
-        System.out.println();
-
-         Part 2biii
-        Sequence.myAnacciSequence(30);
-        System.out.println();
-        System.out.println("Ratios for my custom' fibonacci ");
-        for (int n = 30;n<=33;n++){
-            Sequence.LucinacciRatioCalc(n);
-        }
-        System.out.println();
-        for (int n = 40;n<=43;n++){
-            Sequence.LucinacciRatioTime(n);
-        }
-        System.out.println();
+        // Part 2biii
+//        Sequence.myAnacciSequence(30);
+//        System.out.println();
+//        System.out.println("Ratios for my custom' fibonacci ");
+//        for (int n = 30;n<=33;n++){
+//            Sequence.LucinacciRatioCalc(n);
+//        }
+//        System.out.println();
+//        for (int n = 40;n<=43;n++){
+//            Sequence.LucinacciRatioTime(n);
+//        }
+//        System.out.println();
 
         // Part 3
         System.out.println("Part 3: ");
@@ -60,10 +60,11 @@ public class Main {
 ////        System.out.println(IntStream.of(Square.magicNums).sum());
         System.out.println("The \"getSumsHashMap\" method will give you all of the possible sums with their corresponding subsets ");
         System.out.println("The key is the sum, the value is the ArrayList of subsets");
-        System.out.println("Example: Here are the subsets for the sum..... 7:"+Square.getSumsHashMap(Square.magicNums).get(7));
+        System.out.println("Example: Here are the subsets for the sum..... 7: "+Square.getSumsHashMap(Square.magicNums).get(7));
         System.out.println();
         Square.mostCombinations(Square.magicNums);
-
+//
+//        System.out.println(Square.getPowerSet(Square.testNums));
 
 
 
