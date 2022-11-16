@@ -7,6 +7,8 @@ public class Square {
             Arrays.asList(1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5,13,2,3,15));
     // magic sum is what each column, row, etc add up to (1 + 14 + 14 + 4)
     int magicSum = 33;
+
+    public static int[] testNums = {1, 2,3,4};
     public static int[] magicNums = {1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5,13,2,3,15};
 
     /*
@@ -115,17 +117,45 @@ public class Square {
         /// RETURN HASHMAP THat actually have values
         return sumHashMap;
     }
+    /*
+    * helper function that collects all of the subsets that sum up to a certain value
+    * */
     public static ArrayList<ArrayList<Integer>> sumValidSubSets(int sum,ArrayList<ArrayList<Integer>> powerSetSumValue){
 
         ArrayList<ArrayList<Integer>> validSubSets = new ArrayList<ArrayList<Integer>>();
         for(int i = 0; i<powerSetSumValue.size();i++){
-            ArrayList<Integer> subset = validSubSets.get(i);
+            ArrayList<Integer> subset = powerSetSumValue.get(i);
             if(getSum(subset) == sum){
                 validSubSets.add(subset);
             }
 
         }
         return validSubSets;
+
+    }
+
+    // 3d Find the sum with the greatest number of combinations
+
+    // function that will tell us which index has the  most combinations and how many combinations there are
+    public static void mostCombinations(int[]nums){
+        // get your hash map of power set combinations
+        HashMap<Integer,ArrayList<ArrayList<Integer>>> hashMapSums= getSumsHashMap(nums);
+        int maxIndex = hashMapSums.size();
+        int maxComboKey = 0;
+        //maxComboValue will show all the subsets that have the same sum
+        ArrayList<ArrayList<Integer>> maxComboValue = new ArrayList<ArrayList<Integer>>();
+        int maxComboSize = 0;
+        for (int i = 0; i<maxIndex;i++){
+            // we use the key "i" to get the power sets that sum up to "i"
+            ArrayList<ArrayList<Integer>> subSets = hashMapSums.get(i);
+            if(subSets.size() > maxComboSize){
+                maxComboValue = subSets;
+                maxComboKey = i;
+                maxComboSize = subSets.size();
+            }
+        }
+        System.out.println("The sum that created the greatest number of combinations: " + maxComboKey);
+        System.out.println("There are "+maxComboSize +" different subsets that sum up to "+ maxComboKey);
 
     }
 

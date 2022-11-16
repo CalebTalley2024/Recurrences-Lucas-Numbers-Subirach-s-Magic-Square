@@ -27,7 +27,11 @@ public class Main {
 //
 //        System.out.println(Square.allMagicSubSets(Square.magicNums));
 //        System.out.println(IntStream.of(Square.magicNums).sum());
-        System.out.println(Square.getSumsHashMap(Square.magicNums).get(33));
+//        System.out.println(Square.getSumsHashMap(Square.magicNums).get(7));
+//        System.out.println(Square.getPowerSet(Square.testNums));
+
+        Square.mostCombinations(Square.magicNums);
+
 
 
 

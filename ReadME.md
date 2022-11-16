@@ -9,3 +9,9 @@
 - Custom Function: myAnnacci
 - The ratio of successive calculations is close 1.6 again
 - Order of growth: exponential (b^n) 
+
+# 3c
+
+- the greatest number of combinations is 66: 2 times the magic sum ( )
+
+
